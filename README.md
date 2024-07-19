@@ -32,3 +32,14 @@ A Node.js backend application for user authentication and authorization using JW
    ```sh
    git clone https://github.com/SoumitraKode/auth-system-nodejs
    cd your-repo-name
+2. **Install dependencies**:
+   ```sh
+   npm install
+3.  **Create a .env file and add your MongoDB URI and JWT secret**:
+      ```sh
+         PORT = your_Port
+         MONGODB_URI=your_mongodb_uri
+         JWT_SECRET=your_jwt_secret
+4.**Start the server**:
+   ```sh
+   npm start
